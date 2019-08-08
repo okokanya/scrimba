@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
 import itsme from './img/itsme.jpg';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import MainContent from './components/MainContent';
+
+
 
 function App() {
   return (
-    <div className="ulli">
-      <ul>
-        <h1>its anyas app</h1>
-        <p>hello everyone</p>
-        <itsme />
-        <itsme />
-        {/* <img src=itsme height="100px" width="100px" alt="#" border="1px solid blue"/>  */}
-      </ul>
+    <div>
+      <Navbar />
+      <MainContent />
+      <Footer />
     </div>
   );
 }

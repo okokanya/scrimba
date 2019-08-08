@@ -1,13 +1,74 @@
-.ulli {
-display: flex;
-background-color: rgba(233, 170, 181, 0.644);
-align-items: center;
-justify-content: center;
-text-align: center;
-color: rgb(77, 29, 122);
-text-decoration: underline;
-
-text-decoration-color: aquamarine;
+* {
+padding: 0;
+margin: 0;
 }
 
+.mainNav {
+  position: sticky;
+  top: 0;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 253, 128, 0.644);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(77, 29, 122);
+  font-weight: 600;
+}
 
+.mainNav > li {
+  list-style:none;
+  width: 30%;
+  border: 4px rgb(255, 198, 246) dotted;
+  padding: 10px;
+  margin: 0 3%;
+}
+
+.mainNav > li:before {
+  content: '❤️';
+  margin-right: 10px;
+  width: 30%;
+}
+
+.firstBlock {
+  background-color: rgba(172, 255, 47, 0.356);
+  height: 40vh;
+}
+
+.secondBlock {
+  background-color: rgba(255, 47, 255, 0.24);
+  height: 60vh;
+}
+.thirdBlock {
+  background-color: rgba(241, 255, 47, 0.24);
+  height: 60vh;
+}
+
+.mainFooter {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.322);
+  position: sticky;
+  bottom: 0;
+}
+
+.mainFooter > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+  width: 30%;
+}
+.mainFooter > div:hover {
+  background-color: rgba(0, 0, 255, 0.473);
+  transition: 0.4s;
+  height: 80px;
+
+}
