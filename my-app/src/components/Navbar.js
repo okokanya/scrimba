@@ -4,11 +4,11 @@ import '../App.css';
 
 function Navbar() {
   return (
-    <ul className="mainNav">
-        <li>1</li>
+    <header className="mainNav">
+        <li style={{fontWeight: "800"}}>1</li>
         <li>2</li>
         <li>3</li>
-    </ul>
+    </header>
   );
 }
 

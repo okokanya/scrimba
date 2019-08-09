@@ -33,12 +33,15 @@ margin: 0;
 
 .firstBlock {
   background-color: rgba(172, 255, 47, 0.356);
-  height: 40vh;
+  height: 10vh;
 }
 
 .secondBlock {
-  background-color: rgba(255, 47, 255, 0.24);
+  background: linear-gradient(0deg, rgba(251,255,210,1) 0%, rgba(255,187,249,1) 50%, rgba(226,255,187,1) 100%);
+  background-position-y: center;
+  /* background-attachment: fixed; */
   height: 60vh;
+  padding: 0 10%;
 }
 .thirdBlock {
   background-color: rgba(241, 255, 47, 0.24);
@@ -46,7 +49,7 @@ margin: 0;
 }
 
 .mainFooter {
-  height: 70px;
+  height: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -55,20 +58,24 @@ margin: 0;
   background-color: rgba(0, 0, 255, 0.322);
   position: sticky;
   bottom: 0;
+  padding: 6px;
+
 }
 
 .mainFooter > div {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  padding: 6px;
   justify-content: center;
   text-align: center;
-  height: 70px;
+  height: 40px;
   width: 30%;
 }
 .mainFooter > div:hover {
-  background-color: rgba(0, 0, 255, 0.473);
+  background-color: rgba(0, 0, 255, 0.342);
   transition: 0.4s;
-  height: 80px;
+  height: 90px;
+  text-align: left;
+
 
 }
