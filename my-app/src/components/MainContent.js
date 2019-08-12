@@ -3,11 +3,9 @@ import '../App.css';
 import JokeComponent from './JokeComponent';
 import TodoItem from './TodoItem';
 import ProdCompItem from './ProdCompItem';
-
-
+import Apptest from './ClassTrain'
 import jokesData from './jokesData';
 import products from './products';
-import todosData from './todosData'
 
 
 
@@ -33,18 +31,13 @@ function MainContent () {
     fontSize: 30
   }
 
-  const todoes = todosData.map (item => 
-    <TodoItem key={item.id} item={item} />
-
-    )
-
   return (
     <main>
         <ul className="mainCont" style={styles} >
             <div className="firstBlock" style={minstyles} >its about {hours}:{min}</div>
-
+            <Apptest />
+            <TodoItem />
             <div className="secondBlock">
-              {todoes}
               {/* {newProdList} */}
               {newJokes}
 

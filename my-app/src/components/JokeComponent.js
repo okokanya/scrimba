@@ -19,9 +19,6 @@ import '../App.css';
 // export default JokeComponent;
 
 class JokeComponent extends React.Component {
-    
-
-  
   render() {
     const jokecolor = {
       color: "green"
